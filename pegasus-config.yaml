@@ -1,0 +1,41 @@
+default_context:
+  _pegasus_version: 2024.2.4
+  author_name: Burak
+  ci: github_actions
+  css_framework: tailwind
+  css_theme: default
+  database: postgres
+  deploy_platform: fly
+  description: The most amazing SaaS application the world has ever seen
+  docker_setup: default
+  domain_name: localhost:8000
+  email: o.burak.isik@gmail.com
+  enable_github_login: y
+  enable_google_login: y
+  enable_twitter_login: y
+  front_end_framework: react
+  include_static_files: y
+  marketing_email_platform: convert_kit
+  post_process: y
+  project_name: Smart review
+  project_slug: smart_review
+  stripe_payment_mode: checkout
+  subscription_billing_model: per_unit
+  subscription_pricing_ui: stripe_hosted
+  use_2fa: y
+  use_admin_docs: y
+  use_api_keys: y
+  use_async_example: y
+  use_cloud_media_storage: y
+  use_debug_toolbar: y
+  use_docker: y
+  use_ecommerce_example: n
+  use_examples: y
+  use_impersonation: y
+  use_openai: y
+  use_sentry: y
+  use_subscriptions: y
+  use_teams: y
+  use_teams_example: y
+  use_translations: y
+  use_wagtail: y
